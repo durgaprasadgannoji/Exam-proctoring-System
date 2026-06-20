@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { TypeAnimation } from 'react-type-animation';
-
 import { FaArrowUp } from "react-icons/fa";
 import {
   FaGithub,
@@ -89,7 +88,6 @@ className="max-w-6xl mx-auto px-6 pt-32 pb-20"
 {/* Profile Image */}
 <motion.img
   src="/profile.jpg"
-  alt="Durga Prasad"
   initial={{ scale: 0 }}
   animate={{ scale: 1 }}
   transition={{ duration: 0.8 }}
