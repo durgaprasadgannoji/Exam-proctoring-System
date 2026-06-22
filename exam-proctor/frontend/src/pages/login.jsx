@@ -45,7 +45,6 @@ fontSize: "32px",
 >
 Online Exam Portal </h1>
 
-```
     <input
       type="text"
       placeholder="Candidate Name"
