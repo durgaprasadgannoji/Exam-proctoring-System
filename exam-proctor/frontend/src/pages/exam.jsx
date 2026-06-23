@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-
+import { logViolation } from "../services/api";
 function Exam() {
 const [timeLeft, setTimeLeft] = useState(3600);
 const [violations, setViolations] = useState(0);
@@ -59,6 +59,9 @@ useEffect(() => {
 const handleVisibility = () => {
 if (document.hidden) {
 setViolations((prev) => prev + 1);
+
+logViolation("TAB_SWITCH");
+
 console.log("⚠️ Tab Switch Detected");
 }
 };
@@ -83,6 +86,9 @@ useEffect(() => {
 const handleFullscreen = () => {
 if (!document.fullscreenElement) {
 setViolations((prev) => prev + 1);
+
+
+logViolation("FULLSCREEN_EXIT");
 
 
     console.log(
