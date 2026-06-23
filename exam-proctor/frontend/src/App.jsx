@@ -6,19 +6,12 @@ import Exam from "./pages/exam";
 import Admin from "./pages/admin";
 
 function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/verification" element={<Verification />} />
-        <Route path="/exam" element={<Exam />} />
-        <Route
-  path="/admin"
-  element={<Admin />}
-/>
-      </Routes>
-    </BrowserRouter>
-  );
+return ( <BrowserRouter> <Routes>
+<Route path="/" element={<Login />} />
+<Route path="/verification" element={<Verification />} />
+<Route path="/exam" element={<Exam />} />
+<Route path="/admin" element={<Admin />} /> </Routes> </BrowserRouter>
+);
 }
 
 export default App;
