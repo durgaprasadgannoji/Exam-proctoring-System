@@ -459,16 +459,14 @@ Featured Projects
       </span>
     </div>
 
-    <a
-      href="https://github.com/durgaprasadgannoji"
-      target="_blank"
-      rel="noreferrer"
-      className="inline-flex items-center gap-2 mt-6 text-blue-400 hover:text-blue-300"
-    >
-      <FaGithub />
-      View Project
-    </a>
-
+  <a
+  href="https://xam-proctor.netlify.app/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center gap-2 mt-6 text-blue-400 hover:text-blue-300"
+>
+  View Project →
+</a>
   </div>
 </motion.div>
 
