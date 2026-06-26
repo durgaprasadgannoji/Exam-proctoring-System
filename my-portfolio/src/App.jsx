@@ -434,11 +434,12 @@ Featured Projects
     whileHover={{ scale: 1.03, y: -10 }}
     className="bg-gray-900/70 backdrop-blur-lg border border-gray-800 rounded-2xl overflow-hidden cursor-pointer"
   >
+
     <img
-      src="/proctoring-system.png"
-      alt="Exam Proctoring System"
-      className="w-full h-52 object-cover"
-    />
+  src="/projects/proctoring-system.png"
+  alt="Exam Proctoring System"
+  className="w-full h-52 object-cover"
+/>
 
     <div className="p-6">
       <h3 className="text-2xl font-bold">
@@ -820,7 +821,7 @@ className="bg-gray-900/70 backdrop-blur-lg border border-gray-800 rounded-2xl p-
   </a>
 
   <a
-    href="https://www.linkedin.com/in/YOUR-LINKEDIN-ID"
+    href="https://www.linkedin.com/in/durgaprasadgannoji"
     target="_blank"
     rel="noreferrer"
     className="hover:text-blue-400 transition duration-300"
