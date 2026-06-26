@@ -103,7 +103,7 @@ className="max-w-6xl mx-auto px-6 pt-40 md:pt-32 pb-20"
   transition={{ delay: 0.3 }}
   className="text-4xl md:text-6xl font-bold leading-tight"
 >
-  Gannojii Durga Prasad
+  Gannoji Durga Prasad
 </motion.h1>
 
   <p className="mt-4 text-xl text-blue-400">
@@ -429,7 +429,7 @@ Featured Projects
   className="bg-gray-900/70 backdrop-blur-lg border border-gray-800 rounded-2xl overflow-hidden"
 >
   <img
-    src="/projects/proctoring-system.png"
+    src="\public\proctoring-system.png"
     alt="Exam Proctoring"
     className="w-full h-52 object-cover"
   />
